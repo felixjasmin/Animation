@@ -1,0 +1,62 @@
+*
+{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  display: block;
+  min-height: 100vh;  
+  background: gray;
+}
+
+.animation{
+  height: 100vh;
+  background-color: brown;
+  position: relative;
+  //overflow: hidden;
+}
+
+.feuille_01{
+  height: 100px;
+  top: 50%;
+  left: -110px;
+  position: absolute;
+  
+}
+
+.feuille_02{
+  height: 100px;
+  top: 30%;
+  left: -110px;
+  position: absolute;  
+}
+
+.feuille_03{
+  height: 100px;
+  top: 30%;
+  left: -110px;
+  position: absolute;  
+}
+
+.feuille_04{
+  height: 100px;
+  top: 60%;
+  left: -110px;
+  position: absolute;  
+}
+
+.feuille_05{
+  height: 100px;
+  top: 10%;
+  left: -110px;
+  position: absolute;  
+}
